@@ -1,0 +1,71 @@
+/* html{
+    scroll-behavior: smooth;
+} */
+ul{
+    color: green;
+    background-color:black;
+}
+body{
+    background-color: salmon;
+    /* margin: 16px; */
+    margin: 0px;
+   
+}
+li{
+    /* list-style-type: square;
+    list-style-type: disc;
+    list-style-type: circle; */
+    list-style-type: none;
+    margin: 10px;
+    width: 100px;
+    display:inline-block;
+}
+
+ p{
+    width: 400px;
+    height: 400px;
+    background-color: yellowgreen;
+    /* if we do only display inlilne we cant add hight or width */
+    /* if we want to add height ans width we add display:inline-block */
+    /* display: inline; */
+    display: inline-block;
+    
+}
+  button{
+    display: block;
+    height: 50px;
+    width: 80px;
+    background-color: white;
+    color:  navy;
+    margin: 10px;
+} 
+
+img{
+    height: 200px;
+    width: 300px;
+    display: block;
+    margin: 10px;
+    /* margin-left: 440px; */
+    /* we we do only margin right auto image come on the left */
+    /* margin-right: auto; */
+    /* we we do only margin left auto image come on the right */
+    /* margin-left:auto; */
+    /* if we do both margin right:auto and margin left:auto image come on center */
+    margin-left: auto;
+   margin-right: auto;
+}
+p{
+    background-color: lightblue;
+    margin: 30px;
+   
+}
+
+
+div{
+    margin: 10px;
+    height: 600px;
+
+}
+a{
+    color: red;
+}

@@ -1,0 +1,30 @@
+#demo1{
+   background-color: red;
+   color:pink;
+}
+#demo2{
+background-color: yellow;
+color:brown
+}
+#demo1 li{
+    background-color: green;
+}
+#demo2 li{
+    background-color: skyblue;
+}
+a{
+    text-decoration: none;
+    color:red;
+}
+#firstul li{
+    list-style: none;
+    display:inline; 
+    /* or if we want to add some propertiex then we will use disply:inline-block */
+    display:inline-block
+}
+#img1{
+    /*we must use display block to use margin auto property */
+    display:block;
+    margin-right: auto;
+    margin-left: auto;
+}

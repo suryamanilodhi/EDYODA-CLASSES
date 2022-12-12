@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>form</title>
+    </head>
+    <body>
+        <!-- action attribute says where we send data after form submission -->
+          <!-- get and post two method -->
+          <!-- get method means data is  in already in server you are just fetching it -->
+          <!-- post means you are semndin data to server -->
+        <form    action="" method="post">
+
+        <label for="input1">username:</label>
+        <!-- required attribute show mwarning this field is required -->
+        <input type="text" placeholder="Enter your name" name="username" id="input1" required>
+
+        <label for="input2">password:</label>
+        <input type="password" placeholder="Enter your name" name="password" id="input2">
+        <br>
+        <label for="inpu">Age</label>
+        <input type="number" placeholder="Enter your agr" name="age" id="inpu" min="24" max="40"><br>
+        <label>Gender:</label>
+        <br>
+        <label for="select1">male</label>
+        <input type="radio" name="male" id="select1">
+
+        <label  for="select2">Female</label>
+        <input type="radio" name="male" id="select2">
+        <br>
+         
+        <label>Subjects</label>
+        <label for="user">HTML</label>
+        <input type="checkbox" name="chackbox" id="user1">
+        <label for="user2">maths</label>
+        <input type="checkbox" name="chackbox" id="user2">
+        <label for="user3">css</label>
+        <input type="checkbox" name="chackbox" id="user3">
+        <label for="user4">java</label>
+        <input type="checkbox" name="chackbox" id="user4">
+        <!-- in case of checkbox we can tick more than one option -->
+         <br>
+        <select>
+            <option>delhi</option>
+            <option >mumbai</option>
+            <option >pune</option>
+            <option >maharastra</option>
+            <option >Ahimdabad</option>
+        </select>
+        <br>
+        <label>Choose file:</label><br>
+        <input type="file" multiple>
+        <!-- if we use multiple attribte then we can select multiple file -->
+        <br>
+
+        <label>write about your goal:</label><br>
+
+        <textarea row="50" cols="50" required></textarea>
+        <!-- in text area meassage will show this is required field -->
+            <br>
+        <label>color</label>
+        <input type="color" value="#6BFF33">
+        <!-- by default color is black   we use hexa value to select different color-->
+
+       <br>
+       
+        
+
+
+        <br>
+        <input type="submit">
+
+        </form>
+        
+    </body>
+</html>

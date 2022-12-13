@@ -7,7 +7,7 @@
         <!-- action attribute says where we send data after form submission -->
           <!-- get and post two method -->
           <!-- get method means data is  in already in server you are just fetching it -->
-          <!-- post means you are semndin data to server -->
+          <!-- post means you are sending data to server -->
         <form    action="" method="post">
 
         <label for="input1">username:</label>
@@ -62,11 +62,62 @@
         <!-- by default color is black   we use hexa value to select different color-->
 
        <br>
-       
-        
+       <input type="text" placeholder="enter_location" list="data"><br>
+        <!--select givve dropdown buta list do not give give dropdoen by default -->
+       <datalist id="data">
+        <option>jabalpur</option>
+        <option>maharstra</option>
+        <option>udayapur</option>
+        <option>mirjapur</option>
+        <option>pune</option>
+        <option>delhi</option>
+        <option>haruda</option>
+       </datalist>
+     <p style="color:red">this is diffrence between datalist and select datalist doesnot give select option but select give</p>
+       <select>
+        <option>jabalpur</option>
+        <option>bhopal</option>
+        <option>gwalior</option>
+        <option>rewa</option>
+        <option>ujjain</option>
+        <option>saugor</option>
+        <option>chambal</option>
+        <option>narbadapuram</option>
+        <option>indore</option>
+        <option>sahdol</option>
+       </select> 
+      <br>
+       <!-- suppose we want do give shortcut to backend then we provide value in option -->
+      <input type="text" placeholder="enter country" list="country">
+       <datalist id="country">
+        <option  value="IN">india</option>
+        <option value="AU">australia</option>
+       </datalist> 
 
+       <br>
+       <!-- use of optgroup with select --> 
 
-        <br>
+       <!-- when you want to group some data use optgroup -->
+       <select>
+        <optgroup label="sambhag">
+            <option>narbadapuram</option>
+            <option>chambal</option>
+            <option>rewa</option>
+            <option>sahdol</option>
+        </optgroup>
+        <optgroup label="sambhag">
+            <option>jabalpur</option>
+            <option>bhopal</option>
+            <option>indore</option>
+        </optgroup>
+        <optgroup label="sambhag">
+            <option>saugor</option>
+            <option>gwalior</option>
+            <option>ujjan</option>
+            
+        </optgroup>
+       </select>
+       <br>
         <input type="submit">
 
         </form>

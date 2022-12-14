@@ -1,0 +1,36 @@
+table{
+    border:2px solid red;
+    border-collapse: collapse;
+    border-collapse: separate;
+    width:90%;
+    
+}
+th,td{
+    border:2px solid black;
+    height:50px;
+    text-align: right;
+    text-align: center;
+    /* text-align: left; */
+    vertical-align:bottom;
+    vertical-align:middle;
+}
+th{
+    font-size: 30px;
+    color:black;
+    background-color: aliceblue;
+}
+/*nt child   relation */
+tr:nth-child(3){
+    background-color: blue;
+}
+tr:nth-child(even){
+    background-color: brown;
+    font-size: 30px;
+}
+tr:nth-child(odd){
+    background-color: aqua;
+    font-size: 30px;
+}
+tr:nth-child(even):hover{
+    background-color: dodgerblue;
+}
